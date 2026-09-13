@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bross2D Game</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #111; color: #eee; }
+        canvas { border: 2px solid #eee; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Bross2D!</h1>
+    <p>Play my 2D game directly in your browser.</p>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
